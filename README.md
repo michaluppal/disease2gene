@@ -1,5 +1,7 @@
 # disease2gene
 private repo belonging to Michał Bujniewicz-Uppal
+
+Suggestion to use google colab for execution for now
 # Scientific Literature Genetic Insights Pipeline (Jupyter Notebooks)
 
 This repository contains a series of Jupyter/Colab notebooks that form a pipeline to extract genetic information and related insights from scientific literature (PubMed articles) using NCBI Entrez APIs and Google's Gemini AI.
