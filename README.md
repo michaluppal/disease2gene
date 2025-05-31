@@ -53,4 +53,5 @@ To run these notebooks, you will need:
 - Think of how to structure the repo so that tools, queries (along with author and specific paper requests), api keys are all stored separately.
 - The query should be an input defined by the end user.
 - Create fastapi services
+- depending on cloud this will be hosted on adjust the LLM code. Also figure out a way to paralelize or do batch processing of llm prompts. The sequencial approach costs too much time. With progress on the LLM front the row by row processing should be ultimetly shifted towards processing entire paper at once and filling all rows with one prompts structured outputs.
   
