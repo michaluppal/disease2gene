@@ -46,3 +46,11 @@ To run these notebooks, you will need:
     * You will need an API key for Google's Gemini AI.
     * This is typically configured within `03_gemini_data_extraction.ipynb`.
 * **SciSpaCy Model:** The pipeline uses a SciSpaCy model (e.g., `en_ner_bionlp13cg_md`) for gene name recognition. The first notebook (`01_pubmed_data_collection.ipynb`) will likely contain instructions or code to download this model if it's not already present in your environment.
+
+
+## TO DO 
+- Create py files for the pipeline for later production and hosting oncloud service
+- Think of how to structure the repo so that tools, queries (along with author and specific paper requests), api keys are all stored separately.
+- The query should be an input defined by the end user.
+- Create fastapi services
+  
