@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true, // Fine here since Vite handles emission
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "composite": true, // Required for project references
+    "declaration": true, // Ensure declaration files are emitted
+    "declarationMap": true, // Optional: helps with debugging
+    "outDir": "dist" // Specify an output directory for emitted files
+  },
+  "include": ["src"]
+}

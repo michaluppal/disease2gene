@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Query Tool</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Ensure html, body, and the React root div take up full height and width */
+    html, body, #root {
+      height: 100%;
+      width: 100%;
+      /* Optional: hide horizontal scrollbar if any component accidentally causes overflow */
+      /* overflow-x: hidden; */ 
+    }
+
+    body {
+      line-height: 1.5; /* A sensible default line height */
+      -webkit-font-smoothing: antialiased; /* Improves font rendering on WebKit browsers */
+      -moz-osx-font-smoothing: grayscale; /* Improves font rendering on Firefox */
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
